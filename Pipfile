@@ -6,12 +6,12 @@ verify_ssl = true
 [dev-packages]
 pytest = "*"
 pytest-django = "*"
+pytest-sugar = "*"
+pytest-repeat = "*"
+ipython = "*"
 
 [packages]
 django = "*"
-pytest-sugar = "*"
-pytest-cases = "*"
-pytest-lambda = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.11"
